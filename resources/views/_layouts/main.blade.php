@@ -7,7 +7,7 @@
         <title>Movie App | Template by TailAdmin</title>
         <link rel="icon" href="favicon.ico" />
         <script src="https://cdn.tailwindcss.com"></script>
-        <link href="/style.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net" />
@@ -20,16 +20,30 @@
          $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
         :class="{'dark text-bodydark bg-boxdark-2': darkMode === true}"
     >
-        @include('_partials.preloader')
 
-        <div class="flex h-screen overflow-hidden">
-            @include('_partials.sidebar')
+    <!-- ===== Preloader Start ===== -->
+     @include('_partials.preloader')
+    <!-- ===== Preloader End ===== -->
+
+
+    <div class="flex h-screen overflow-hidden">
+    <!-- ===== Sidebar Start ===== -->
+    @include('_partials.sidebar') 
+    <!-- ===== Sidebar End ===== -->       
+
 
             <div class="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
-                @include('_partials.navbar') @yield('content')
+            <!-- ===== Header Start ===== -->
+            @include('_partials.navbar')
+            <!-- ===== Header End ===== -->
+
+            <!-- ===== Main Content Start ===== -->
+            @yield('content')
+            <!-- ===== Main Content End ===== -->
+            
             </div>
         </div>
 
-        <script defer src="/bundle.js"></script>
+        <script defer src="bundle.js"></script>
     </body>
 </html>

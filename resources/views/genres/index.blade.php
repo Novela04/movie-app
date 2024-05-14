@@ -26,8 +26,8 @@
                             <!-- ====== Table Two Start -->
                             <div class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
                                 <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
-                                    <div class="col-span-3 flex items-center">
-                                        <p class="font-medium">Anime Name</p>
+                                    <div class="col-span-2 flex items-center">
+                                        <p class="font-medium">Id</p>
                                     </div>
                                     <div class="col-span-1 items-center sm:flex">
                                         <p class="font-medium">Genre</p>
@@ -41,15 +41,10 @@
                                 </div>
 
                                 <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
-                                    <div class="col-span-3 flex items-center">
-                                        <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
-                                            <div class="w-12 rounded-md">
-                                                <img src="src/images/movie/movie-01.jpg" alt="Product" />
-                                            </div>
-                                            <p class="text-sm font-medium text-black dark:text-white">
-                                                Jojo Bizarre Adventure
-                                            </p>
-                                        </div>
+                                    <div class="col-span-2 flex items-center">
+                                    <p class="text-sm font-medium text-black dark:text-white">
+                                            1
+                                        </p>
                                     </div>
                                     <div class="col-span-1 items-center sm:flex">
                                         <p class="text-sm font-medium text-black dark:text-white">
@@ -58,7 +53,7 @@
                                     </div>
                                     <div class="col-span-3 flex items-center">
                                         <p class="text-sm font-medium text-black dark:text-white">
-                                            Jojo's Bizarre Adventure is a story about the Joestar family, who are possessed with intense psychic strength.
+                                        Shounen is a genre in Japanese manga and anime that is aimed specifically at young male audiences, especially in the teenage to early adult age group.
                                         </p>
                                     </div>
                                     <div class="col-span-1 flex items-center">
@@ -69,15 +64,10 @@
                                     </div>
                                 </div>
                                 <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
-                                    <div class="col-span-3 flex items-center">
-                                        <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
-                                            <div class="w-12 rounded-md">
-                                                <img src="src/images/movie/movie-02.jpg" alt="Product" />
-                                            </div>
-                                            <p class="text-sm font-medium text-black dark:text-white">
-                                                Noragami
-                                            </p>
-                                        </div>
+                                    <div class="col-span-2 flex items-center">
+                                    <p class="text-sm font-medium text-black dark:text-white">
+                                            2
+                                        </p>
                                     </div>
                                     <div class="col-span-1 items-center sm:flex">
                                         <p class="text-sm font-medium text-black dark:text-white">
@@ -86,7 +76,7 @@
                                     </div>
                                     <div class="col-span-3 flex items-center">
                                         <p class="text-sm font-medium text-black dark:text-white">
-                                            Noragami is an anime series that follows a poor deity named Yato, who desires to become a famous god.
+                                        The drama genre is a genre that invites the audience to feel the emotional journey of the characters through the conflicts they face.
                                         </p>
                                     </div>
                                     <div class="col-span-1 flex items-center">
@@ -97,15 +87,10 @@
                                     </div>
                                 </div>
                                 <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
-                                    <div class="col-span-3 flex items-center">
-                                        <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
-                                            <div class="w-12 rounded-md">
-                                                <img src="src/images/movie/movie-03.jpg" alt="Product" />
-                                            </div>
-                                            <p class="text-sm font-medium text-black dark:text-white">
-                                                Wind Breaker
-                                            </p>
-                                        </div>
+                                    <div class="col-span-2 flex items-center">
+                                    <p class="text-sm font-medium text-black dark:text-white">
+                                            3
+                                        </p>
                                     </div>
                                     <div class="col-span-1 items-center sm:flex">
                                         <p class="text-sm font-medium text-black dark:text-white">
@@ -114,7 +99,53 @@
                                     </div>
                                     <div class="col-span-3 flex items-center">
                                         <p class="text-sm font-medium text-black dark:text-white">
-                                            Haruka Sakura wants nothing to do with weaklings—he's only interested in the strongest of the strong.
+                                        The action genre is a genre full of tense scenes with a focus on the heroic actions of the characters.
+                                        </p>
+                                    </div>
+                                    <div class="col-span-1 flex items-center">
+                                        <div class="flex items-center space-x-1">
+                                            <a href="" class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Edit</a>
+                                            <a href="" class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-800 ring-1 ring-inset ring-red-600/20">Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
+                                    <div class="col-span-2 flex items-center">
+                                    <p class="text-sm font-medium text-black dark:text-white">
+                                            4
+                                        </p>
+                                    </div>
+                                    <div class="col-span-1 items-center sm:flex">
+                                        <p class="text-sm font-medium text-black dark:text-white">
+                                            Comedy
+                                        </p>
+                                    </div>
+                                    <div class="col-span-3 flex items-center">
+                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        The comedy genre is a story genre whose main aim is to entertain the audience and make them laugh.
+                                        </p>
+                                    </div>
+                                    <div class="col-span-1 flex items-center">
+                                        <div class="flex items-center space-x-1">
+                                            <a href="" class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">Edit</a>
+                                            <a href="" class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-800 ring-1 ring-inset ring-red-600/20">Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
+                                    <div class="col-span-2 flex items-center">
+                                    <p class="text-sm font-medium text-black dark:text-white">
+                                            5
+                                        </p>
+                                    </div>
+                                    <div class="col-span-1 items-center sm:flex">
+                                        <p class="text-sm font-medium text-black dark:text-white">
+                                            Romance
+                                        </p>
+                                    </div>
+                                    <div class="col-span-3 flex items-center">
+                                        <p class="text-sm font-medium text-black dark:text-white">
+                                        The romantic genre is a story genre that focuses on the romance and affection between the characters.
                                         </p>
                                     </div>
                                     <div class="col-span-1 flex items-center">
