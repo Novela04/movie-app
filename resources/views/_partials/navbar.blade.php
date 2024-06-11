@@ -86,7 +86,7 @@
                             <div class="relative" x-data="{ dropdownOpen: false }" @click.outside="dropdownOpen = false">
                                 <a class="flex items-center gap-4" href="#" @click.prevent="dropdownOpen = ! dropdownOpen">
                                     <span class="hidden text-right lg:block">
-                                        <span class="block text-sm font-medium text-black dark:text-white">< Daffa Andika Putra Setiawan ></span>
+                                        <span class="block text-sm font-medium text-black dark:text-white">< Novela ></span>
                                         <span class="block text-xs font-medium">< Dewa Anime ></span>
                                     </span>
 
